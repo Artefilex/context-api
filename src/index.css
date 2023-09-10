@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button{
+  width: 200px;
+  height: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: bisque;
+  background: rgb(78, 78, 78);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.dark {
+  background: black;
+  color: white;
+}
+
+.light {
+  background: white;
+color: rgb(34, 34, 34);
+}
